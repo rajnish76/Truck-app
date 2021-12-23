@@ -1,0 +1,72 @@
+.spinCenter {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.header {
+	border-bottom: 1px solid #bbb;
+
+	.truckContainer {
+		padding: 10px 0;
+        cursor: pointer;
+		.headTruck {
+			font-weight: 400;
+			font-size: 13px;
+		}
+
+		.truckCount {
+			font-size: 18px;
+			font-weight: bold;
+		}
+	}
+}
+
+.mapContainer {
+	border: 1px solid #bbb;
+	border-top: none;
+}
+
+.sideBar {
+    height: 88.5vh;
+    overflow: auto;
+	.divider {
+		border-top: 1px solid #bbb;
+	}
+
+	.sideContent {
+		padding: 7px 10px;
+
+        
+        .topContainer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .truckName {
+                font-size: 15px;
+                font-weight: 500;
+            }
+            .lastUpdated {
+                font-size: 11px;
+                color: #9f9b9b;
+                font-weight: 500;
+            }
+
+        }
+
+        .bottomContainer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #9f9b9b;
+            font-weight: 500;
+            .status {
+                font-size: 13px;
+            }
+            .speed {
+                font-size: 11px;
+            }
+        }
+	}
+}
